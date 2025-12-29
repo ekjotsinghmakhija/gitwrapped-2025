@@ -18,7 +18,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     setMounted(true);
     // Check for saved theme preference or default to dark
-    const savedTheme = localStorage.getItem('githubwrapped-theme') as Theme;
+    const savedTheme = localStorage.getItem('gitwrapped-theme') as Theme;
     if (savedTheme) {
       setTheme(savedTheme);
     } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
@@ -29,7 +29,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (mounted) {
       // Update localStorage and document class
-      localStorage.setItem('githubwrapped-theme', theme);
+      localStorage.setItem('gitwrapped-theme', theme);
       document.documentElement.classList.remove('dark', 'light');
       document.documentElement.classList.add(theme);
     }

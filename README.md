@@ -145,8 +145,8 @@ Based on your **behavior patterns**, you'll be assigned one of these personas:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ekjotsinghmakhija/githubwrapped-2025.git
-cd githubwrapped-2025
+git clone https://github.com/ekjotsinghmakhija/gitwrapped-2025.git
+cd gitwrapped-2025
 
 # Install dependencies
 npm install
@@ -173,7 +173,7 @@ Click **GitHub** or **GitLab** button on the home page for one-click authenticat
 ### Environment Variables
 ```env
 # NextAuth Configuration
-NEXTAUTH_URL=https://githubwrapped..tech
+NEXTAUTH_URL=https://gitwrapped..tech
 NEXTAUTH_SECRET=your-secret-key
 
 # GitHub OAuth (https://github.com/settings/developers)
@@ -255,7 +255,7 @@ GITLAB_CLIENT_SECRET=your-gitlab-client-secret
 ## 🏗️ Project Structure
 
 ```
-githubwrapped-2025/
+gitwrapped-2025/
 ├── app/
 │   ├── api/auth/[...nextauth]/  # NextAuth API route
 │   ├── layout.tsx               # Root layout with providers
@@ -317,8 +317,8 @@ Add these in your Vercel project settings:
 
 If you use, modify, or build upon this project, you **MUST**:
 
-1. ✅ **Credit the original author** — Include "Based on [GitWrapped](https://github.com/ekjotsinghmakhija/githubwrapped-2025) by [Ekjot Singh](https://github.com/ekjotsinghmakhija)" in your README
-2. ✅ **Link to the original repo** — https://github.com/ekjotsinghmakhija/githubwrapped-2025
+1. ✅ **Credit the original author** — Include "Based on [GitWrapped](https://github.com/ekjotsinghmakhija/gitwrapped-2025) by [Ekjot Singh](https://github.com/ekjotsinghmakhija)" in your README
+2. ✅ **Link to the original repo** — https://github.com/ekjotsinghmakhija/gitwrapped-2025
 3. ❌ **Do NOT claim original authorship** — This includes Product Hunt, social media, or any other platform
 4. ❌ **Do NOT remove copyright notices** — Keep the license file and copyright comments
 
@@ -339,6 +339,6 @@ Copyright © 2025 [Ekjot Singh](https://github.com/ekjotsinghmakhija)
 
 *Star ⭐ this repo if you found it useful!*
 
-[🌐 Try GitWrapped 2025](https://githubwrapped/) | [🐦 Twitter](https://twitter.com/ek10sh)
+[🌐 Try GitWrapped 2025](https://gitwrapped/) | [🐦 Twitter](https://twitter.com/ek10sh)
 
 </div>

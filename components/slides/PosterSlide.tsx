@@ -45,7 +45,7 @@ export const PosterSlide: React.FC<{ data: GitWrappedData }> = ({ data }) => {
   const posterRef = useRef<HTMLDivElement>(null);
 
   const shareText = `My GitHub Wrapped 2025:\n\n${data.totalCommits} commits\n${data.topLanguages[0]?.name || 'Code'} mastery\n${data.community.totalStars} stars earned\n\nCheck out your GitWrapped too!`;
-  const shareUrl = 'https://githubwrapped./';
+  const shareUrl = 'https://gitwrapped./';
 
   const shareLinks = [
     {
@@ -113,7 +113,7 @@ export const PosterSlide: React.FC<{ data: GitWrappedData }> = ({ data }) => {
       });
 
       const link = document.createElement('a');
-      link.download = `githubwrapped-${data.username}-${data.year}.png`;
+      link.download = `gitwrapped-${data.username}-${data.year}.png`;
       link.href = dataUrl;
       link.click();
     } catch (err) {

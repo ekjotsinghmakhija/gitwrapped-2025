@@ -31,7 +31,7 @@ export default function Home() {
 
   // Fetch repo stars on mount - use proxy to avoid CORS
   useEffect(() => {
-    fetch('/api/github?endpoint=' + encodeURIComponent('/repos//githubwrapped-2025'))
+    fetch('/api/github?endpoint=' + encodeURIComponent('/repos//gitwrapped-2025'))
       .then(res => res.json())
       .then(data => setStarCount(data.stargazers_count || 0))
       .catch(() => setStarCount(null))
@@ -174,7 +174,7 @@ export default function Home() {
       {/* Top Bar - Theme Toggle & Star Repo */}
       <div className="fixed top-4 right-4 z-50 flex items-center gap-2">
         <a
-          href="https://github.com/ekjotsinghmakhija/githubwrapped-2025"
+          href="https://github.com/ekjotsinghmakhija/gitwrapped-2025"
           target="_blank"
           rel="noopener noreferrer"
           className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${isDark ? 'bg-neutral-900 text-neutral-300 border-neutral-800 hover:bg-neutral-800' : 'bg-neutral-100 text-neutral-700 border-neutral-200 hover:bg-neutral-200'}`}
