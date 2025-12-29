@@ -339,6 +339,6 @@ Copyright © 2025 [Ekjot Singh](https://github.com/ekjotsinghmakhija)
 
 *Star ⭐ this repo if you found it useful!*
 
-[🌐 Try GitWrapped 2025](https://githubwrapped.pankajk.tech/) | [🐦 Twitter](https://twitter.com/pankajkumar_dev)
+[🌐 Try GitWrapped 2025](https://githubwrapped/) | [🐦 Twitter](https://twitter.com/ek10sh)
 
 </div>
