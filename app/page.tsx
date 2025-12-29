@@ -6,7 +6,7 @@ import { fetchUserStory } from '@/services/githubService'
 import { fetchGitLabUserStory } from '@/services/gitlabService'
 import { GitWrappedData } from '@/types'
 import { StoryContainer } from '@/components/StoryContainer'
-import { Github, Play, Loader2, AlertCircle, Key, ChevronDown, ChevronUp, Lock, RefreshCw, CheckCircle2, XCircle, Sun, Moon, LogOut } from 'lucide-react'
+import { Github, Play, Loader2, AlertCircle, Key, ChevronDown, ChevronUp, Lock, RefreshCw, CheckCircle2, XCircle, Sun, Moon, LogOut, Twitter, Linkedin, Globe } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from '@/context/ThemeContext'
 
@@ -432,6 +432,36 @@ export default function Home() {
         <div className="mt-12 text-center text-xs text-neutral-600 font-mono">
           <p>CINEMATIC EXPERIENCE</p>
           <p className="mt-2 opacity-50">Best on Mobile • Try 'demo'</p>
+
+          <div className="flex items-center justify-center gap-6 mt-6">
+            <a
+              href="https://x.com/ek10sh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`transition-colors ${isDark ? 'text-neutral-500 hover:text-white' : 'text-neutral-400 hover:text-black'}`}
+              aria-label="Twitter"
+            >
+              <Twitter size={18} />
+            </a>
+            <a
+              href="https://ekjot.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`transition-colors ${isDark ? 'text-neutral-500 hover:text-white' : 'text-neutral-400 hover:text-black'}`}
+              aria-label="Personal Website"
+            >
+              <Globe size={18} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ekjot-singh-thefirst/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`transition-colors ${isDark ? 'text-neutral-500 hover:text-white' : 'text-neutral-400 hover:text-black'}`}
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={18} />
+            </a>
+          </div>
         </div>
       </motion.div>
     </div>
