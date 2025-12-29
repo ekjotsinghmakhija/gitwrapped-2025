@@ -173,7 +173,7 @@ Click **GitHub** or **GitLab** button on the home page for one-click authenticat
 ### Environment Variables
 ```env
 # NextAuth Configuration
-NEXTAUTH_URL=https://githubwrapped.pankajk.tech
+NEXTAUTH_URL=https://githubwrapped..tech
 NEXTAUTH_SECRET=your-secret-key
 
 # GitHub OAuth (https://github.com/settings/developers)
@@ -327,7 +327,7 @@ If you use, modify, or build upon this project, you **MUST**:
 This project took significant effort to create. If you found it useful, please:
 - ⭐ **Star this repo**
 - 🔗 **Credit the original** when sharing
-- 🐦 **Tag @pankajkumar_dev** when posting about it
+- 🐦 **Tag @ek10sh** when posting about it
 
 Copyright © 2025 [Ekjot Singh](https://github.com/ekjotsinghmakhija)
 
