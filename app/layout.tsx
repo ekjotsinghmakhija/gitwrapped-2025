@@ -31,7 +31,7 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gitwrapped.'),
+  metadataBase: new URL('https://gitwrapped.ekjot.me'),
   title: 'GitWrapped 2025 - Your Year in Code | GitHub Wrapped',
   description: 'Relive your coding journey with GitWrapped 2025. Transform your GitHub contributions into a stunning cinematic experience with beautiful animations and personalized insights. Your GitHub Wrapped for 2025!',
   keywords: [
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     'Coding Journey 2025',
     'GitHub Cinematic Experience',
   ],
-  authors: [{ name: 'GitWrapped', url: 'https://gitwrapped.' }],
+  authors: [{ name: 'GitWrapped', url: 'https://gitwrapped.ekjot.me' }],
   creator: 'GitWrapped',
   publisher: 'GitWrapped',
   robots: {
@@ -91,15 +91,15 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://gitwrapped.',
+    url: 'https://gitwrapped.ekjot.me',
     title: 'GitWrapped 2025 - Your Year in Code | GitHub Wrapped',
     description: 'Relive your coding journey with GitWrapped 2025. Transform your GitHub contributions into a stunning cinematic experience. Your GitHub Wrapped for 2025!',
     siteName: 'GitWrapped',
     locale: 'en_US',
     images: [
       {
-        url: 'https://gitwrapped.',
-        secureUrl: 'https://gitwrapped.',
+        url: 'https://gitwrapped.ekjot.me/card.png',
+        secureUrl: 'https://gitwrapped.ekjot.me/card.png',
         width: 1200,
         height: 630,
         alt: 'GitWrapped 2025 - GitHub Wrapped Preview',
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'GitWrapped 2025 - Your Year in Code | GitHub Wrapped',
     description: 'Relive your coding journey with GitWrapped 2025. Transform your GitHub contributions into a stunning cinematic experience. Your GitHub Wrapped for 2025!',
-    images: ['https://gitwrapped.'],
+    images: ['https://gitwrapped.ekjot.me/card.png'],
     creator: '@ek10sh',
     site: '@ek10sh',
   },
@@ -134,7 +134,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://gitwrapped.pankajk.tech',
+    canonical: 'https://gitwrapped.ekjot.me',
   },
 }
 
@@ -152,7 +152,7 @@ const jsonLd = {
   '@type': 'WebApplication',
   name: 'GitWrapped 2025',
   description: 'Transform your GitHub contributions into a stunning cinematic experience. Your GitHub Wrapped for 2025!',
-  url: 'https://gitwrapped.',
+  url: 'https://gitwrapped.ekjot.me',
   applicationCategory: 'DeveloperApplication',
   operatingSystem: 'Web',
   offers: {
@@ -165,8 +165,8 @@ const jsonLd = {
     name: 'Ekjot Singh',
     url: 'https://twitter.com/ek10sh',
   },
-  screenshot: 'https://gitwrapped./card.png',
-  image: 'https://gitwrapped./card.png',
+  screenshot: 'https://gitwrapped.ekjot.me/card.png',
+  image: 'https://gitwrapped.ekjot.me/card.png',
   featureList: [
     'GitHub Year in Review',
     'Contribution Statistics',

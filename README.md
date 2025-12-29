@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gitwrapped./">🌐 Live Demo</a> •
+  <a href="https://gitwrapped.ekjot.me/">🌐 Live Demo</a> •
   <a href="#-features">✨ Features</a> •
   <a href="#-quick-start">⚡ Quick Start</a> •
   <a href="#-tech-stack">🛠️ Tech Stack</a>
@@ -173,7 +173,7 @@ Click **GitHub** or **GitLab** button on the home page for one-click authenticat
 ### Environment Variables
 ```env
 # NextAuth Configuration
-NEXTAUTH_URL=https://gitwrapped..tech
+NEXTAUTH_URL=https://gitwrapped.ekjot.me
 NEXTAUTH_SECRET=your-secret-key
 
 # GitHub OAuth (https://github.com/settings/developers)

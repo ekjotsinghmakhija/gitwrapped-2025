@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://gitwrapped.'
+  // FIX: Update the base URL
+  const baseUrl = 'https://gitwrapped.ekjot.me'
 
   return [
     {
